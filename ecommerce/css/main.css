@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: #ffffff;
+}
+
+.container {
+  max-width: 1000;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding-top: 60;
+}
+.row {
+  display: flax;
+}
+.main {
+  max-width: 620;
+  height: 310;
+  background-color: aqua;
+}
+.sidebar {
+  max-width: 300;
+  height: 310;
+  background-color: blue;
+}
