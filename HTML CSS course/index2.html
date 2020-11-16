@@ -13,19 +13,25 @@
     />
   </head>
   <body>
-    <h1>Hello links !</h1>
-    <a
-      target="_blank"
-      href="https://www.youtube.com/watch?v=vQWlgd7hV4A&t=2463s&ab_channel=DevEd"
-    >
-      <img src="/HTML CSS course/icons/youtube.jpg" alt="" />
-    </a>
+    <!-- მნიშვნელოვანი პარამეტრები, გასარჩევია სათითაოთ -->
+    <h1>Hello forms !</h1>
+    <form action="/index.html">
+      <label for="user">User Name</label>
+      <input maxlength="16" minlength="6" name="user" type="text" id="user" />
+      <label for="email">Email address</label>
+      <input name="email" type="text" id="email" />
+      <select name="products" id="product">
+        <option value="MB">Mackbook</option>
+        <option value="HB">Hewlett-Packard</option>
+      </select>
 
-    <a
-      target="_blank"
-      href="https://www.myauto.ge/ka/pr/48512518/iyideba-sedani-mercedes-benz-c-55-amg-2007-benzini-geo"
+      <textarea name="message" id="messageID" cols="30" rows="10"></textarea>
+      <button type="submit">Submit</button>
+    </form>
+    <!--
+    <a href="/HTML CSS course/index.html" target="_blank"
+      >link me to other page</a
     >
-      My Auto ge</a
-    >
+    -->
   </body>
 </html>
