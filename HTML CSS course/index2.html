@@ -17,10 +17,18 @@
     <h1>Hello forms !</h1>
     <form action="/index.html">
       <label for="user">User Name</label>
-      <input maxlength="16" minlength="6" name="user" type="text" id="user" />
+      <input
+        maxlength="16"
+        minlength="6"
+        name="user"
+        type="text"
+        id="user"
+        placeholder="type name"
+      />
       <label for="email">Email address</label>
-      <input name="email" type="text" id="email" />
+      <input autocomplete="off" name="email" type="text" id="email" />
       <select name="products" id="product">
+        <option value="null">not define</option>
         <option value="MB">Mackbook</option>
         <option value="HB">Hewlett-Packard</option>
       </select>
