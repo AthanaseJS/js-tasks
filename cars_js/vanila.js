@@ -1,6 +1,5 @@
 const cars = [
   { name: 'Volvo V70', price: '60000', img: '/cars_js/img/Volvo.jpg' },
-
   { name: 'BMW M3', price: '40000', img: '/cars_js/img/BMW.jpg' },
   { name: 'Bugaty Verona', price: '70000', img: '/cars_js/img/Bujaty.jpg' },
   { name: 'Ford Mustang', price: '25000', img: '/cars_js/img/Ford.jpg' },
