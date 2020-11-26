@@ -1,0 +1,15 @@
+BMW M3
+/BMW.jpg
+40000
+
+Bujaty Verona
+/Bujaty.jpg
+70000
+
+Ford Mustang
+/Ford.jpg
+25000
+
+Volvo XX
+/Volvo.jpg
+60000
