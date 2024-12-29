@@ -1,12 +1,12 @@
-var fruits = ['Banana', 'Orange', 'Apple', 'Mango']
-document.getElementById('demo1').innerHTML = fruits
+var fruits = ["Banana", "Orange", "Apple", "Mango"];
+document.getElementById("demo1").innerHTML = fruits;
 
 const cars = [
-  { name: 'Volvo V70', price: '60000', img: '/cars_js/img/Volvo.jpg' },
-  { name: 'BMW M3', price: '40000', img: '/cars_js/img/BMW.jpg' },
-  { name: 'Bujaty Verona', price: '70000', img: '/cars_js/img/Bujaty.jpg' },
-  { name: 'Ford Mustang', price: '25000', img: '/cars_js/img/Ford.jpg' },
-]
+  { name: "Volvo V70", price: "60000", img: "/cars_js/img/Volvo.jpg" },
+  { name: "BMW M3", price: "40000", img: "/cars_js/img/BMW.jpg" },
+  { name: "Bugatti Verona", price: "70000", img: "/cars_js/img/Bujaty.jpg" },
+  { name: "Ford Mustang", price: "25000", img: "/cars_js/img/Ford.jpg" },
+];
 
 function createCard(car) {
   return `
@@ -16,9 +16,9 @@ function createCard(car) {
     </div>
     <h3>${car.name}</h3>
     <p>${car.price}</p>
-  </div>`
+  </div>`;
 }
 
-const templates = cars.map((car) => createCard(car))
-const html = templates.join(' ')
-document.querySelector('.list').innerHTML = html
+const templates = cars.map((car) => createCard(car));
+const html = templates.join(" ");
+document.querySelector(".list").innerHTML = html;

@@ -2,8 +2,8 @@ BMW M3
 /BMW.jpg
 40000
 
-Bujaty Verona
-/Bujaty.jpg
+Bugatti Verona
+/Bugatti.jpg
 70000
 
 Ford Mustang
